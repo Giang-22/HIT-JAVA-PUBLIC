@@ -9,7 +9,7 @@ public class bai1 {
             r = b1.nextDouble();
         }
         while(r<=0 || r>=1000);
-        System.out.printf("%.3f%n", 2*r*3.14);
-        System.out.printf(" " + "%.3f%n", r*r*3.14);
+        System.out.printf("%.3f", 2*r*3.14);
+        System.out.printf(" "+"%.3f%n", r*r*3.14);
     }
 }
